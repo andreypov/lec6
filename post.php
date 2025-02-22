@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php
+    <?php  
     require_once "lib/mysql.php";
     $sql = 'SELECT * FROM articles WHERE `id` = ?';
     $query = $pdo->prepare($sql);
