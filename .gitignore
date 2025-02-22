@@ -1,0 +1,5 @@
+img/
+data/data.txt
+.gitignore
+*.jpg
+*.png
